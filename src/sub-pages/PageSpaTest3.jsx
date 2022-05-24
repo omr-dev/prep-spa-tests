@@ -14,7 +14,7 @@ export const PageSpaTest3 = () => {
         }}
       >
         <div className="form-row">
-          <label for="name">Name:</label>
+          <label htmlFor="name">Name:</label>
           <input
             type="text"
             value={name}
@@ -25,7 +25,7 @@ export const PageSpaTest3 = () => {
           />
         </div>
         <div className="form-row">
-          <label for="age">Age:</label>
+          <label htmlFor="age">Age:</label>
           <input
             type="text"
             value={age}
