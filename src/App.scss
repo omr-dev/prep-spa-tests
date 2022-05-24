@@ -55,4 +55,30 @@ body{
     padding: 20px;
     
   }
+  .page-spaTest1{
+    .person-box{
+      display: flex;
+      .profile-image-side{
+        img{
+          width:200px;
+          border-radius: 10px;
+        }
+      }
+      .profile-info-side{
+        ul{
+          list-style-type: none;
+          li{
+            margin-bottom:15px;
+          }
+        }
+        font-size:30px;
+        a{
+          
+          color:yellow
+        }
+      }
+    }
+
+
+  }
 }
