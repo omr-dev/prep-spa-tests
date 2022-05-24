@@ -33,11 +33,12 @@ body{
          
         }
         a:hover{
-          background-color: yellow;
-          color:var(--main-bg-color);
+          color:yellow;
         }
         a.active{
-          color:yellow;
+          background-color: yellow;
+          color:var(--main-bg-color);
+          
         }
 
       }
