@@ -6,6 +6,9 @@ export const PageInfo = () => {
         <li>
           <p>Display data from an JavaScript object using JSX</p>
         </li>
+        <li>
+          <p>Display data from an array and a nested array in JSX</p>
+        </li>
       </ol>
     </div>
   );
