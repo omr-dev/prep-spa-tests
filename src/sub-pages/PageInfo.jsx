@@ -9,6 +9,9 @@ export const PageInfo = () => {
         <li>
           <p>Display data from an array and a nested array in JSX</p>
         </li>
+        <li>
+          <p>Update the page based on text typed into input fields</p>
+        </li>
       </ol>
     </div>
   );
