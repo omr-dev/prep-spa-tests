@@ -12,6 +12,9 @@ export const PageInfo = () => {
         <li>
           <p>Update the page based on text typed into input fields</p>
         </li>
+        <li>
+          <p>Move an element upward when button is pressed</p>
+        </li>
       </ol>
     </div>
   );

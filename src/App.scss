@@ -81,4 +81,15 @@ body{
 
 
   }
+  .page-spaTest4{
+    position: relative;
+    div.orange-box{
+      background-color: orange;
+      width:200px;
+      height: 200px;
+      position: absolute;
+      top:0;
+      right:0;
+    }
+  }
 }
