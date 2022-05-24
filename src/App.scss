@@ -1,0 +1,57 @@
+:root{
+  --main-text-color:#ccc;
+  --main-bg-color:#333;
+}
+body{
+  background-color: var(--main-bg-color);
+  color:var(--main-text-color);
+  padding: 10px;
+  box-sizing: border-box;
+  h1{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+  }
+  nav{
+    width: 80%;
+    margin: 30px auto;
+    ul{
+      list-style-type: none;
+      display:flex;
+      justify-content: space-between;
+     padding-left: 0;
+      li{
+        
+        
+        
+        a{
+          border: 1px solid var(--main-text-color);
+          padding: 10px;
+          text-decoration: none;
+          color:var(--main-text-color);
+          font-size: 2rem;
+         
+        }
+        a:hover{
+          background-color: yellow;
+          color:var(--main-bg-color);
+        }
+        a.active{
+          color:yellow;
+        }
+
+      }
+      li:last-child{
+        border-right: none;
+        padding-right: none;
+      }
+      
+    }
+  }
+  .sub-page{
+    width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+}
